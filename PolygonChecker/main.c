@@ -8,10 +8,14 @@ int side = 0;
 
 int main() {
 	bool continueProgram = true;
+
+
 	while (continueProgram) {
 		printWelcome();
 
 		int shapeChoice = printShapeMenu();
+
+
 
 		switch (shapeChoice)
 		{
